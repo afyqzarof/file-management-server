@@ -5,6 +5,7 @@ export async function up(knex: Knex): Promise<void> {
     table.string("id");
     table.string("name");
     table.string("description");
+    table.string("filename");
     table.string("date");
   });
 }
